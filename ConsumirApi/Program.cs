@@ -18,6 +18,7 @@ namespace ConsumirApi
         {
             Program program = new Program();
 
+            /*Chamada dos métodos que respondem as questões*/
             program.resposta1();
             program.resposta2();
             program.resposta3();
@@ -26,6 +27,7 @@ namespace ConsumirApi
             program.resposta6();
         }
 
+        /*Chamada dos métodos que pegam as informações da API */
         private void acessarResultProcesso()
         { 
             HttpResponseMessage webResponse = webClient.GetAsync("https://localhost:5001/api/processo").Result;
