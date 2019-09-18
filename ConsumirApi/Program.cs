@@ -21,7 +21,7 @@ namespace ConsumirApi
             program.resposta1();
             program.resposta2();
             program.resposta3();
-            //program.resposta4();
+            program.resposta4();
             program.resposta5();
             program.resposta6();
         }
@@ -61,7 +61,7 @@ namespace ConsumirApi
             }
             Console.WriteLine("======================================Questão 1=====================================");
 
-            Console.WriteLine("Valor total de processos ativos R$: {0}", soma);
+            Console.WriteLine("Valor total de processos ativos R$: {0}", String.Format("{0:0.00}", soma) );
         }
 
         private void resposta2()
@@ -90,7 +90,7 @@ namespace ConsumirApi
             media = soma / contador;
             Console.WriteLine("======================================Questão 2=====================================");
 
-            Console.WriteLine("A média de valor é R$: {0}", media);
+            Console.WriteLine("A média de valor é R$: {0}", String.Format("{0:0.00}", media));
         }
         private void resposta3()
         {
@@ -124,15 +124,15 @@ namespace ConsumirApi
 
             var testeResultado = from consumirProcesso in processo
                                  join consumirCliente in cliente on consumirProcesso.ClienteID equals consumirCliente.Id
-                                 where DateTime.ParseExact(consumirProcesso.Criacao, "MM-dd-yyyy hh:mm:ss tt", CultureInfo.InvariantCulture).Month == 09 
-                                 //&& DateTime.ParseExact(consumirProcesso.Criacao, "dd-MM-yyyy", CultureInfo.InvariantCulture).Year == 2007
+                                 where DateTime.ParseExact(consumirProcesso.Criacao, "dd-MM-yyyy", CultureInfo.InvariantCulture).Month == 9 
+                                 && DateTime.ParseExact(consumirProcesso.Criacao, "dd-MM-yyyy", CultureInfo.InvariantCulture).Year == 2007
                                  select new
                                  {
                                      NomeCliente = consumirCliente.Nome,
                                      CnpjCliente = consumirCliente.Cnpj,
                                      UfCliente = consumirCliente.Uf,
                                      ProcessoNumero = consumirProcesso.NumeroProcesso,
-                                     ValorProcesso = consumirProcesso.Valor,
+                                     ValorProcesso = String.Format("{0:0.00}", consumirProcesso.Valor) ,
                                      UfProcesso = consumirProcesso.Uf,
                                      DataInicio = consumirProcesso.Criacao,
                                      StatusProcesso = consumirProcesso.Status
