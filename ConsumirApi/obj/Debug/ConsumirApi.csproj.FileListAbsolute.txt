@@ -1,0 +1,16 @@
+E:\Projetos\Web\ConsumirApi\bin\Debug\ConsumirApi.exe.config
+E:\Projetos\Web\ConsumirApi\bin\Debug\ConsumirApi.exe
+E:\Projetos\Web\ConsumirApi\bin\Debug\ConsumirApi.pdb
+E:\Projetos\Web\ConsumirApi\bin\Debug\Newtonsoft.Json.dll
+E:\Projetos\Web\ConsumirApi\bin\Debug\System.Net.Http.Formatting.dll
+E:\Projetos\Web\ConsumirApi\bin\Debug\System.Web.Http.dll
+E:\Projetos\Web\ConsumirApi\bin\Debug\System.Web.Http.WebHost.dll
+E:\Projetos\Web\ConsumirApi\bin\Debug\Newtonsoft.Json.xml
+E:\Projetos\Web\ConsumirApi\bin\Debug\System.Net.Http.Formatting.xml
+E:\Projetos\Web\ConsumirApi\bin\Debug\System.Web.Http.xml
+E:\Projetos\Web\ConsumirApi\bin\Debug\System.Web.Http.WebHost.xml
+E:\Projetos\Web\ConsumirApi\obj\Debug\ConsumirApi.csproj.CoreCompileInputs.cache
+E:\Projetos\Web\ConsumirApi\obj\Debug\ConsumirApi.csproj.CopyComplete
+E:\Projetos\Web\ConsumirApi\obj\Debug\ConsumirApi.exe
+E:\Projetos\Web\ConsumirApi\obj\Debug\ConsumirApi.pdb
+E:\Projetos\Web\ConsumirApi\obj\Debug\ConsumirApi.csprojAssemblyReference.cache
