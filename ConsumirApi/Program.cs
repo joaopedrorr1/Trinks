@@ -168,10 +168,8 @@ namespace ConsumirApi
                                   });
             foreach (var item in testeResultado)
             {
-                
+                //Console.WriteLine("Questão 5 - Processo número {0} do cliente {1}", item.ProcessoNumero, item.NomeCliente);
             }
-            //Console.WriteLine("Questão 5 - Processo número {0} do cliente {1}", item.ProcessoNumero, item.NomeCliente);
-
         }
         private void resposta6()
         {
