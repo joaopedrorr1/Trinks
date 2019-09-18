@@ -59,7 +59,9 @@ namespace ConsumirApi
                 soma = item.ValorProcesso + soma;
                 
             }
-            Console.WriteLine("Questão 1 - Valor total de processos ativos R$: {0}", soma);
+            Console.WriteLine("======================================Questão 1=====================================");
+
+            Console.WriteLine("Valor total de processos ativos R$: {0}", soma);
         }
 
         private void resposta2()
@@ -86,8 +88,9 @@ namespace ConsumirApi
             }
 
             media = soma / contador;
+            Console.WriteLine("======================================Questão 2=====================================");
 
-            Console.WriteLine("Questão 2 - A média de valor é R$: {0}", media);
+            Console.WriteLine("A média de valor é R$: {0}", media);
         }
         private void resposta3()
         {
@@ -103,12 +106,13 @@ namespace ConsumirApi
                                  {
                                     consumirProcesso.Id
                                  };
+            Console.WriteLine("======================================Questão 3=====================================");
 
             foreach (var item in testeResultado)
             {
                 contador++;
             }
-            Console.WriteLine("Questão 3 - O número de processos com o valor acima de R$: 100.000,00 é: {0}", contador);
+            Console.WriteLine("O número de processos com o valor acima de R$: 100.000,00 é: {0}", contador);
         }
 
 
@@ -133,10 +137,11 @@ namespace ConsumirApi
                                      DataInicio = consumirProcesso.Criacao,
                                      StatusProcesso = consumirProcesso.Status
                                  };
+            Console.WriteLine("======================================Questão 4=====================================");
 
             foreach (var item in testeResultado)
             {
-                Console.WriteLine("Questão 4 - Processo {0} número {1} no {2} no valor de R$: {3}, iniciado em {4}",
+                Console.WriteLine("Processo {0} número {1} no {2} no valor de R$: {3}, iniciado em {4}",
                     item.StatusProcesso, item.ProcessoNumero, item.UfProcesso, item.ValorProcesso, item.DataInicio);
             }
         }
@@ -166,9 +171,10 @@ namespace ConsumirApi
                                       ProcessoNumero = consumirProcesso.NumeroProcesso
           
                                   });
+            Console.WriteLine("======================================Questão 5=====================================");
             foreach (var item in testeResultado)
             {
-                //Console.WriteLine("Questão 5 - Processo número {0} do cliente {1}", item.ProcessoNumero, item.NomeCliente);
+                Console.WriteLine("Processo número {0} do cliente {1}", item.ProcessoNumero, item.NomeCliente);
             }
         }
         private void resposta6()
@@ -191,11 +197,10 @@ namespace ConsumirApi
                                      DataInicio = consumirProcesso.Criacao,
                                      StatusProcesso = consumirProcesso.Status
                                  };
-
+            Console.WriteLine("======================================Questão 6=====================================");
             foreach (var item in testeResultado)
             {
-                Console.WriteLine("Questão 6 - Processo {0} número {1} no {2} no valor de R$: {3}, iniciado em {4}",
-                    item.StatusProcesso, item.ProcessoNumero, item.UfProcesso, item.ValorProcesso, item.DataInicio);
+                Console.WriteLine("Processo {0} ",item.ProcessoNumero);
             }
 
             Console.ReadKey();

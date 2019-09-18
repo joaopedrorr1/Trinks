@@ -13336,11 +13336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\Web\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\JoaoPedro\\Desktop\\Trinks\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\Projetos\\Web\\API\\API.csproj",
+      "projectPath": "C:\\Users\\JoaoPedro\\Desktop\\Trinks\\API\\API.csproj",
       "packagesPath": "C:\\Users\\JoaoPedro\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\Web\\API\\obj\\",
+      "outputPath": "C:\\Users\\JoaoPedro\\Desktop\\Trinks\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12,3 +12,17 @@ E:\Projetos\Web\API\obj\Debug\netcoreapp2.2\API.AssemblyInfo.cs
 E:\Projetos\Web\API\obj\Debug\netcoreapp2.2\API.RazorTargetAssemblyInfo.cache
 E:\Projetos\Web\API\obj\Debug\netcoreapp2.2\API.dll
 E:\Projetos\Web\API\obj\Debug\netcoreapp2.2\API.pdb
+C:\Users\JoaoPedro\Desktop\Trinks\API\bin\Debug\netcoreapp2.2\API.deps.json
+C:\Users\JoaoPedro\Desktop\Trinks\API\bin\Debug\netcoreapp2.2\API.runtimeconfig.json
+C:\Users\JoaoPedro\Desktop\Trinks\API\bin\Debug\netcoreapp2.2\API.runtimeconfig.dev.json
+C:\Users\JoaoPedro\Desktop\Trinks\API\bin\Debug\netcoreapp2.2\API.dll
+C:\Users\JoaoPedro\Desktop\Trinks\API\bin\Debug\netcoreapp2.2\API.pdb
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.csprojAssemblyReference.cache
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.csproj.CoreCompileInputs.cache
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cache
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cs
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.AssemblyInfoInputs.cache
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.AssemblyInfo.cs
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.RazorTargetAssemblyInfo.cache
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.dll
+C:\Users\JoaoPedro\Desktop\Trinks\API\obj\Debug\netcoreapp2.2\API.pdb
